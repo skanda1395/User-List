@@ -6,7 +6,7 @@ const User = require("./models/user");
 const app = express();
 
 // connect to mongodb
-const dbURI = "mongodb+srv://skanda:L8GOhGtLPGVeyUrw@cluster0.ighcu.mongodb.net/user-data?retryWrites=true&w=majority";
+const dbURI = "<Enter your DB URI here>";
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((result) => {
     console.log("connected to db");
